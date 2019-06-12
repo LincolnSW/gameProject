@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'shanghairegular';
+    src: url('../fonts/shanghai/shanghai-webfont.woff2') format('woff2'),
+         url('../fonts/shanghai/shanghai-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'another_danger_-_demoregular';
+    src: url('../fonts/another_danger/another_danger_-_demo-webfont.woff2') format('woff2'),
+         url('../fonts/another_danger/another_danger_-_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(../img/mm.png);
+    padding: 0;
+    margin: 0 auto;
+}   
+
+nav {
+    background-color:black;
+    padding: 10px 20px;
+    height: 100px;
+}
+nav ul {
+    margin: 0;
+    list-style: none;
+    margin-top: 26px;
+    float: right;
+}
+nav li {
+    float: left;
+    margin-left: 100px;
+}
+nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    border-radius: 5px;
+    background-color: goldenrod;
+}
+nav li a:hover {
+    color:black;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 150px;
+}
+
+figure > img {
+    width: 100%;
+}
+
+
+
+header {
+    background-image: url(../img/m.jpg);
+    
+    padding: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main { 
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    
+
+}   
+
+section::after {
+    content: "";
+    display: table;
+    clear:both;   
+}
+.space {
+    height:210px;
+    width: 210px;
+    float: left;
+    margin: 0 20px 20px 0;
+    
+}
+    
+
+section article:nth-child(4n) {
+    margin-right: 0;
+    
+}
+
+.blog img {
+    width: 350px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+
+aside {
+    float:left;
+    background-color: rgb(211, 164, 47);
+    padding: 20px 20px;
+    width: 200px;
+    
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'shanghairegular';
+    color:gold;
+}
+
+.MK {
+    color:rgba(86, 103, 46, 0.75);
+    font-family: 'another_danger_-_demoregular';
+}
+.space img {
+    height:210px;
+    width: 210px;
+    border-radius: 100px;
+    border: 5px solid black;
+
+  
+}
+   
+
+
+header {
+    text-align: center;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  grey;
+}
+footer i{
+    color: purple;
+    font-size: 50px;
+    margin: 30px 30px 0 0;
+}
+
+footer i:hover{
+    color: grey;
+}
